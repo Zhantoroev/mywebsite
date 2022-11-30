@@ -20,7 +20,7 @@ function AboutCard() {
 
           </p>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p className="blue">
             "BE THE BEST VERSION OF YOURSELF!"{" "}
           </p>
           <footer className="blockquote-footer">Syimyk Zhantoroev</footer>
