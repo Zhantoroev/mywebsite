@@ -24,7 +24,6 @@ function Projects() {
               link=""
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

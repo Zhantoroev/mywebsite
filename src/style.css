@@ -58,7 +58,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #210157;
+  background: #0b0349;
 }
 
 /* Handle */
@@ -258,7 +258,6 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -453,6 +452,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  min-height: 94vh;
 }
 
 .project-card {
@@ -473,7 +473,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(86, 200, 255, 0.911) !important;
+  box-shadow: 0 0 11px rgba(86, 200, 255, 0.911) !important;
 }
 
 .btn-primary {
