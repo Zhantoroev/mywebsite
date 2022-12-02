@@ -9,7 +9,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { TbCertificate } from "react-icons/tb"
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -84,7 +84,7 @@ function NavBar() {
                 to="/certification"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <TbCertificate
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Certifications
