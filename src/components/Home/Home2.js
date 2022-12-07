@@ -22,7 +22,9 @@ function Home2() {
               <br />
               <br />
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                &nbsp;
               <i>
                 <b className="blue">when an unknown printer took a galley </b> and
