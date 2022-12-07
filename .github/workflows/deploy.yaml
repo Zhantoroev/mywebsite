@@ -18,9 +18,11 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
+    - name: Run npm build 
+      run: npm build
 
     - name: Deploy website to zhantoroev.ml
-      run: aws s3 sync ./ s3://zhantoroev.ml --delete
+      run: aws s3 sync ./build s3://zhantoroev.ml --delete
 
     - name: Deploy website to www.zhantoroev.ml
-      run: aws s3 sync ./ s3://www.zhantoroev.ml --delete
+      run: aws s3 sync ./build s3://www.zhantoroev.ml --delete
