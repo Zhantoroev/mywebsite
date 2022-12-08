@@ -17,36 +17,17 @@ function Home2() {
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I assume that I have developed a broad range of skills and abilities throughout the years 
+              that make me a <b className="blue">skilled, competent, professional</b> and <b className="blue"> flexible </b> DevOps Engineer.
               <br />
               <br />
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-               &nbsp;
-              <i>
-                <b className="blue">when an unknown printer took a galley </b> and
-                of type and scrambled it {" "}
-                <b className="blue">
-                to make a type specimen book 
-                </b>
-              </i>
+              Wherever I end up working, I constantly keep in mind that I can add value to the organization 
+              by delivering secure and cutting-edge solutions depending on the demands of the business. 
+              I'm enthusiastic about developing professionally. 
+              Including my great technical background, I also thrive at decision-making, teamwork, and communication.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="blue">Node.js</b> and
-              <i>
-                <b className="blue">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="blue"> React.js and Express.js</b>
-              </i>
+              In my spare time, I like to create products using Node.js, with Modern Javascript Libraries and frameworks like React.js and Express.js. 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,9 +38,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h2>CONTACT ME</h2>
             <p>
-              Feel free to <span className="blue">connect </span>with me
+              Feel free to <span className="blue">connect </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
