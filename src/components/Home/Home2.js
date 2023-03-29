@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -14,20 +13,21 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="blue"> INTRODUCE </span> MYSELF
+              MEET <span className="blue"> SYIMYK </span> ZHANTOROEV
             </h1>
             <p className="home-about-body">
-              I assume that I have developed a broad range of skills and abilities throughout the years 
-              that make me a <b className="blue">skilled, competent, professional</b> and <b className="blue"> flexible </b> DevOps Engineer.
+              As a seasoned DevOps Engineer, I have honed my skills and abilities over the years to become a 
+              highly competent and versatile professional. I am committed to delivering secure and innovative 
+              solutions that cater to the specific needs of any organization I work with. I take pride in 
+              continuously improving my skills and knowledge to ensure that I provide cutting-edge solutions.
               <br />
               <br />
-              Wherever I end up working, I constantly keep in mind that I can add value to the organization 
-              by delivering secure and cutting-edge solutions depending on the demands of the business. 
-              I'm enthusiastic about developing professionally. 
-              Including my great technical background, I also thrive at decision-making, teamwork, and communication.
+              Aside from my technical expertise, I excel in decision-making, teamwork, and communication. I value 
+              collaboration and believe that open communication is key to successful project outcomes.
               <br />
               <br />
-              In my spare time, I like to create products using Node.js, with Modern Javascript Libraries and frameworks like React.js and Express.js. 
+              During my free time, I enjoy exploring Javascript libraries and frameworks such as React.js, Express.js, 
+              and Node.js to develop new products and expand my skill set.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -36,13 +36,26 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        <br />
         <Row>
           <Col md={12} className="home-about-social">
             <h2>CONTACT ME</h2>
             <p>
-              Feel free to <span className="blue">connect </span>
+              I welcome the opportunity to connect with like-minded individuals in the industry. 
+              Whether you have a question, an opportunity to collaborate, or simply want to chat 
+              about the latest trends in DevOps, feel free to reach out. I am always happy to connect. 
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="mailto:s.m.zhantoroev@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGmail />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/Zhantoroev"
