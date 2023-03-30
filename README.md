@@ -4,9 +4,16 @@
 
 I am Syimyk Zhantoroev. Senior DevOps Engineer at Ant Tech.
 
-I assume that I have developed a broad range of skills and abilities throughout the years that make me a skilled, competent, professional and flexible DevOps Engineer. Wherever I end up working, I constantly keep in mind that I can add value to the organization by delivering secure and cutting-edge solutions depending on the demands of the business. I'm enthusiastic about developing professionally. Including my great technical background, I also thrive at decision-making, teamwork, and communication.
+As a seasoned DevOps Engineer, I have honed my skills and abilities over the years to become a 
+highly competent and versatile professional. I am committed to delivering secure and innovative 
+solutions that cater to the specific needs of any organization I work with. I take pride in 
+continuously improving my skills and knowledge to ensure that I provide cutting-edge solutions.
 
-In my spare time, I like to create products using Node.js, with Modern Javascript Libraries and frameworks like React.js and Express.js. 
+Aside from my technical expertise, I excel in decision-making, teamwork, and communication. I value 
+collaboration and believe that open communication is key to successful project outcomes.
+
+During my free time, I enjoy exploring Javascript libraries and frameworks such as React.js, Express.js, 
+and Node.js to develop new products and expand my skill set.
 
 
 <h2 align="center"> 
